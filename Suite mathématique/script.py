@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-
+# this solution is not the best sometimes it gives an error but it's rare let's say after 10 attempts one is wrong
 def get_html(session, url):
     try:
         # here you can extract data with any method you want I found this easy sooo ;))
